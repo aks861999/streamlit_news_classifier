@@ -1,0 +1,7 @@
+streamlit==0.77.0
+json5==0.9.5
+requests==2.27.1
+pandas==1.2.1
+pygooglenews==0.1.2
+nltk==3.5
+plotly==4.8.1
