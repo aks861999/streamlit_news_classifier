@@ -5,6 +5,7 @@ import pandas as pd
 from pygooglenews import GoogleNews
 import nltk
 nltk.data.path.append('./nltk.txt')
+nltk.download('vader_lexicon')
 import plotly.graph_objects as go
 
 
