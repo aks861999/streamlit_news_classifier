@@ -9,7 +9,8 @@ nltk.download('vader_lexicon')
 import plotly.graph_objects as go
 
 
-st.beta_set_page_config(page_title="News Classifier by Akash",page_icon='📰')
+st.set_page_config(page_title="News Classifier by Akash",page_icon='📰',layout="wide")
+
 
 
 def segment(df):
