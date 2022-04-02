@@ -9,6 +9,9 @@ nltk.download('vader_lexicon')
 import plotly.graph_objects as go
 
 
+st.beta_set_page_config(page_title="News Classifier by Akash",page_icon='📰')
+
+
 def segment(df):
     ## Form a pandas series with all value counts in the "Label" column in the Dataframe "df" ##
     counts = df.label.value_counts(normalize=True) * 100
